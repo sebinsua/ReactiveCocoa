@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6390E20E19D262990042D975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B02BB119D1DF6C00B3BCA3 /* Foundation.framework */; };
 		D04796A519666CBF0066B267 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D047969A19666CBF0066B267 /* ReactiveCocoa.framework */; };
 		D04797F0196670900066B267 /* NSArray+RACSequenceAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0479712196670900066B267 /* NSArray+RACSequenceAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D04797F2196670900066B267 /* NSArray+RACSequenceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0479713196670900066B267 /* NSArray+RACSequenceAdditions.m */; };
@@ -349,8 +348,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63B02BB119D1DF6C00B3BCA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		63CC165A19D76C7D00B54E40 /* swiftz_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swiftz_core.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Spokes-gdobfcgjauxjhmarkumgsdhcsicx/Build/Products/Debug-iphoneos/swiftz_core.framework"; sourceTree = "<group>"; };
+		D0297D3B19D67EF5009986A9 /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = "../External/LlamaKit/build/Debug-iphoneos/LlamaKit.framework"; sourceTree = "<group>"; };
+		D0297D3D19D67F01009986A9 /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = ../External/LlamaKit/build/Debug/LlamaKit.framework; sourceTree = "<group>"; };
 		D047967719666BF30066B267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D047967819666BF30066B267 /* ReactiveCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveCocoa.h; sourceTree = "<group>"; };
 		D047968419666BF30066B267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -572,7 +571,6 @@
 		D047998A196671DF0066B267 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
 		D0479995196673730066B267 /* ReactiveCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-Prefix.pch"; sourceTree = "<group>"; };
 		D047999E196678F20066B267 /* ObjectiveCBridgingSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectiveCBridgingSpec.swift; sourceTree = "<group>"; };
-		D095745419733BAD002D44C1 /* swiftz_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swiftz_core.framework; path = "../../../../../../../../../Library/Developer/Xcode/DerivedData/ReactiveCocoa-fvhormsvfcxumbbehgudvscdctdn/Build/Products/Debug/swiftz_core.framework"; sourceTree = "<group>"; };
 		D095745719733F74002D44C1 /* AtomicSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomicSpec.swift; sourceTree = "<group>"; };
 		D095745A197341C2002D44C1 /* BagSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagSpec.swift; sourceTree = "<group>"; };
 		D095745D197344E3002D44C1 /* DisposableSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisposableSpec.swift; sourceTree = "<group>"; };
@@ -587,7 +585,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6390E20E19D262990042D975 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,19 +601,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63B02BB019D1DEEF00B3BCA3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				63CC165A19D76C7D00B54E40 /* swiftz_core.framework */,
-				63B02BB119D1DF6C00B3BCA3 /* Foundation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D047966919666BF30066B267 = {
 			isa = PBXGroup;
 			children = (
-				63B02BB019D1DEEF00B3BCA3 /* Frameworks */,
 				D047967519666BF30066B267 /* ReactiveCocoa */,
 				D047968219666BF30066B267 /* ReactiveCocoaTests */,
 				D04796D519666CE40066B267 /* Configuration */,
@@ -646,7 +633,8 @@
 		D047967619666BF30066B267 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D095745419733BAD002D44C1 /* swiftz_core.framework */,
+				D0297D3D19D67F01009986A9 /* LlamaKit.framework */,
+				D0297D3B19D67EF5009986A9 /* LlamaKit.framework */,
 				D04797B0196670900066B267 /* ReactiveCocoa-Bridging-Header.h */,
 				D0479995196673730066B267 /* ReactiveCocoa-Prefix.pch */,
 				D047967719666BF30066B267 /* Info.plist */,
@@ -1127,7 +1115,7 @@
 		D047966A19666BF30066B267 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = GitHub;
 				TargetAttributes = {
 					D047969919666CBF0066B267 = {
@@ -1398,7 +1386,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GCC_PREFIX_HEADER = "ReactiveCocoa/ReactiveCocoa-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1416,7 +1404,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GCC_PREFIX_HEADER = "ReactiveCocoa/ReactiveCocoa-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1428,17 +1416,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D04796E419666CE40066B267 /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				APPLY_RULES_IN_COPY_FILES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				INSTALL_PATH = "/Users/sebinsua/Library/Developer/Xcode/DerivedData/Spokes-gdobfcgjauxjhmarkumgsdhcsicx/Build/Products/Debug-iphoneos/";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ReactiveCocoa;
-				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1446,17 +1431,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D04796E419666CE40066B267 /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				APPLY_RULES_IN_COPY_FILES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				INSTALL_PATH = "/Users/sebinsua/Library/Developer/Xcode/DerivedData/Spokes-gdobfcgjauxjhmarkumgsdhcsicx/Build/Products/Debug-iphoneos/";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ReactiveCocoa;
-				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1467,8 +1449,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/External/Quick/Externals/Nimble/build/Debug-iphoneos",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ReactiveCocoa-anedscstkitsydccssaxwasrgsku/Build/Products/Debug",
 				);
 				GCC_PREFIX_HEADER = "ReactiveCocoaTests/ReactiveCocoaTests-Prefix.pch";
 				INFOPLIST_FILE = ReactiveCocoaTests/Info.plist;
@@ -1483,8 +1463,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/External/Quick/Externals/Nimble/build/Debug-iphoneos",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ReactiveCocoa-anedscstkitsydccssaxwasrgsku/Build/Products/Debug",
 				);
 				GCC_PREFIX_HEADER = "ReactiveCocoaTests/ReactiveCocoaTests-Prefix.pch";
 				INFOPLIST_FILE = ReactiveCocoaTests/Info.plist;
@@ -1501,7 +1479,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GCC_PREFIX_HEADER = "ReactiveCocoa/ReactiveCocoa-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1513,17 +1491,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D04796E419666CE40066B267 /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				APPLY_RULES_IN_COPY_FILES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				INSTALL_PATH = "/Users/sebinsua/Library/Developer/Xcode/DerivedData/Spokes-gdobfcgjauxjhmarkumgsdhcsicx/Build/Products/Debug-iphoneos/";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ReactiveCocoa;
-				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Profile;
 		};
@@ -1534,8 +1509,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/External/Quick/Externals/Nimble/build/Debug-iphoneos",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ReactiveCocoa-anedscstkitsydccssaxwasrgsku/Build/Products/Debug",
 				);
 				GCC_PREFIX_HEADER = "ReactiveCocoaTests/ReactiveCocoaTests-Prefix.pch";
 				INFOPLIST_FILE = ReactiveCocoaTests/Info.plist;
@@ -1552,7 +1525,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GCC_PREFIX_HEADER = "ReactiveCocoa/ReactiveCocoa-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1564,17 +1537,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D04796E419666CE40066B267 /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				APPLY_RULES_IN_COPY_FILES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				INSTALL_PATH = "/Users/sebinsua/Library/Developer/Xcode/DerivedData/Spokes-gdobfcgjauxjhmarkumgsdhcsicx/Build/Products/Debug-iphoneos/";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INSTALL_PATH = "@rpath";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = ReactiveCocoa;
-				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Test;
 		};
@@ -1585,8 +1555,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(PROJECT_DIR)/External/Quick/Externals/Nimble/build/Debug-iphoneos",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ReactiveCocoa-anedscstkitsydccssaxwasrgsku/Build/Products/Debug",
 				);
 				GCC_PREFIX_HEADER = "ReactiveCocoaTests/ReactiveCocoaTests-Prefix.pch";
 				INFOPLIST_FILE = ReactiveCocoaTests/Info.plist;
