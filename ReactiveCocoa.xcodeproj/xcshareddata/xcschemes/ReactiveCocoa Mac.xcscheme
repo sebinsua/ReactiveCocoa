@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D047260B19E49F82006002AA"
+               BlueprintIdentifier = "D04725E919E49ED7006002AA"
                BuildableName = ".framework"
-               BlueprintName = "ReactiveCocoa-iOS"
+               BlueprintName = "ReactiveCocoa-Mac"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D047261519E49F82006002AA"
-               BuildableName = "ReactiveCocoa-iOSTests.xctest"
-               BlueprintName = "ReactiveCocoa-iOSTests"
+               BlueprintIdentifier = "D04725F419E49ED7006002AA"
+               BuildableName = "ReactiveCocoa-MacTests.xctest"
+               BlueprintName = "ReactiveCocoa-MacTests"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D047261519E49F82006002AA"
-               BuildableName = "ReactiveCocoa-iOSTests.xctest"
-               BlueprintName = "ReactiveCocoa-iOSTests"
+               BlueprintIdentifier = "D04725F419E49ED7006002AA"
+               BuildableName = "ReactiveCocoa-MacTests.xctest"
+               BlueprintName = "ReactiveCocoa-MacTests"
                ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BlueprintIdentifier = "D04725E919E49ED7006002AA"
             BuildableName = ".framework"
-            BlueprintName = "ReactiveCocoa-iOS"
+            BlueprintName = "ReactiveCocoa-Mac"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BlueprintIdentifier = "D04725E919E49ED7006002AA"
             BuildableName = ".framework"
-            BlueprintName = "ReactiveCocoa-iOS"
+            BlueprintName = "ReactiveCocoa-Mac"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +93,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D047260B19E49F82006002AA"
+            BlueprintIdentifier = "D04725E919E49ED7006002AA"
             BuildableName = ".framework"
-            BlueprintName = "ReactiveCocoa-iOS"
+            BlueprintName = "ReactiveCocoa-Mac"
             ReferencedContainer = "container:ReactiveCocoa.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
